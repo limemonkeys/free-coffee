@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom';
 import coffeeGif from '../src/final.gif';
 import './App.css';
 
@@ -63,21 +63,19 @@ const PhatBreak = () => {
 // Main App Component
 function App() {
   return (
-    <Router>
+    <Router basename="/free-coffee">  {/* ← Add basename here */}
       <div className="App">
         <header className="App-header">
           {/* Your existing content */}
-          <div class="box">
+          <div className="box">  {/* Fixed: class → className */}
             <Navbar />
             <img src={coffeeGif} className="coffee-gif" alt="logo" />
             <h1 className='coffee-gif-text'>Free Pictures of Coffee</h1>
           </div>
           <PhatBreak />
-          
         </header>
       </div>
     </Router>
   );
 }
-
 export default App;
