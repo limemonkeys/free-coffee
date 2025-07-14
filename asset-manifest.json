@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/free-coffee/static/css/main.2d621a09.css",
-    "main.js": "/free-coffee/static/js/main.8b04643b.js",
+    "main.css": "/free-coffee/static/css/main.46a02e26.css",
+    "main.js": "/free-coffee/static/js/main.9c861a17.js",
     "static/js/453.b21a91d2.chunk.js": "/free-coffee/static/js/453.b21a91d2.chunk.js",
     "static/media/final.gif": "/free-coffee/static/media/final.6b474329a3cd616d8055.gif",
+    "static/media/logo-coffee-spill.png": "/free-coffee/static/media/logo-coffee-spill.f7585d9f14f468a542da.png",
+    "static/media/logo-coffee.png": "/free-coffee/static/media/logo-coffee.14687e882cdc7389c4e2.png",
     "index.html": "/free-coffee/index.html",
-    "main.2d621a09.css.map": "/free-coffee/static/css/main.2d621a09.css.map",
-    "main.8b04643b.js.map": "/free-coffee/static/js/main.8b04643b.js.map",
+    "main.46a02e26.css.map": "/free-coffee/static/css/main.46a02e26.css.map",
+    "main.9c861a17.js.map": "/free-coffee/static/js/main.9c861a17.js.map",
     "453.b21a91d2.chunk.js.map": "/free-coffee/static/js/453.b21a91d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d621a09.css",
-    "static/js/main.8b04643b.js"
+    "static/css/main.46a02e26.css",
+    "static/js/main.9c861a17.js"
   ]
 }
