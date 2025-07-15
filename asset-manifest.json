@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/free-coffee/static/css/main.46a02e26.css",
-    "main.js": "/free-coffee/static/js/main.9c861a17.js",
+    "main.css": "/free-coffee/static/css/main.3d14bdc3.css",
+    "main.js": "/free-coffee/static/js/main.51b2f950.js",
     "static/js/453.b21a91d2.chunk.js": "/free-coffee/static/js/453.b21a91d2.chunk.js",
     "static/media/final.gif": "/free-coffee/static/media/final.6b474329a3cd616d8055.gif",
+    "static/media/Heart Latte.png": "/free-coffee/static/media/Heart Latte.60eadf89fe368d769255.png",
+    "static/media/Hyperpigmentation Latte.png": "/free-coffee/static/media/Hyperpigmentation Latte.4e4b5f3a49eb1acc502c.png",
+    "static/media/Penis Latte.png": "/free-coffee/static/media/Penis Latte.8b4e36a26d045aaa8a86.png",
+    "static/media/Interactive Buddy Latte.png": "/free-coffee/static/media/Interactive Buddy Latte.1df843ccfc76bfdb16e6.png",
+    "static/media/Lusty Blood Latte.png": "/free-coffee/static/media/Lusty Blood Latte.7361b896cc9426d451d1.png",
+    "static/media/Weight Latte.png": "/free-coffee/static/media/Weight Latte.538b60a0b787c9203b64.png",
     "static/media/logo-coffee-spill.png": "/free-coffee/static/media/logo-coffee-spill.f7585d9f14f468a542da.png",
     "static/media/logo-coffee.png": "/free-coffee/static/media/logo-coffee.14687e882cdc7389c4e2.png",
     "index.html": "/free-coffee/index.html",
-    "main.46a02e26.css.map": "/free-coffee/static/css/main.46a02e26.css.map",
-    "main.9c861a17.js.map": "/free-coffee/static/js/main.9c861a17.js.map",
+    "main.3d14bdc3.css.map": "/free-coffee/static/css/main.3d14bdc3.css.map",
+    "main.51b2f950.js.map": "/free-coffee/static/js/main.51b2f950.js.map",
     "453.b21a91d2.chunk.js.map": "/free-coffee/static/js/453.b21a91d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46a02e26.css",
-    "static/js/main.9c861a17.js"
+    "static/css/main.3d14bdc3.css",
+    "static/js/main.51b2f950.js"
   ]
 }
