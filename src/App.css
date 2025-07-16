@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Barriecito');
+
 .App {
   text-align: center;
   margin: 0 auto;
@@ -47,11 +50,15 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
   top: 0;
   z-index: 999;
   position: absolute;
 
+  width: 100%;
+
+
+  position: fixed;
+  top: 0px;
 }
 
 .navbar-container {
@@ -59,10 +66,46 @@
   justify-content: space-between;
   height: 80px;
   width: 100%;
-  max-width: 1300px;
-  padding: 0 50px;
+  padding: 0 1em 0 1em;
 
 
+}
+.App-header {
+  /* Remove or update this line: */
+  min-height: 100vh;
+  /* Add a gradient if needed: */
+  background-color: #B1804F;
+  background: linear-gradient(0deg,#250D13 0%, #753D29 100%);
+}
+
+.retro-path-container {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.retro-path {
+  position: absolute;
+  width: 150%;
+  left: -25%;
+  top: 0;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.food-grid-container {
+  position: relative;
+  padding-top: 120px; /* Space above grid */
+  padding-bottom: 80px; /* Space below grid */
+}
+
+.retro-path svg path {
+  vector-effect: non-scaling-stroke; /* Maintains thickness */
+}
+
+.retro-path svg {
+  width: 100%;
+  height: 100vh;
 }
 
 .navbar-logo {
@@ -93,33 +136,142 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #F1E1C7;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+
+  font-family: 'Barriecito';
+  font-size: 1.5em;
+  text-shadow: -1px -1px 0 #250D13, 1px -1px 0 #250D13, -1px 1px 0 #250D13, 1px 1px 0 #250D13;
+  text-decoration: none;
 }
 
 .nav-links:hover {
-  color: #f00946;
+  color: #D6C8B1;
   transition: all 0.3s ease;
 }
 
-.PhatBreak{
+.header-container{
   width: 100vw;
-  height: 33vh;
-  margin: 0;
   background-color: #B1804F;
-  background: linear-gradient(90deg, rgba(177, 128, 79, 1) 0%, rgba(117, 61, 41, 1) 100%);
+  background: linear-gradient(0deg,#250D13 0%, #753D29 100%);
 }
 
-.coffee-gif-text{
+.header-text{
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  font-family: 'Barrio';
+  font-size: 2em;
+
+  color: hsl(37, 60%, 86%);
+  text-shadow:  6px 6px  #250D13, 7px 7px 0 #250D13, 6px 6px 0 #250D13;
+  text-decoration: none;
+}
+
+.PhatBreakAfterContainer{
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  background-color: #B1804F;
+  background: linear-gradient(0deg,#250D13 0%, #753D29 100%);
+}
+
+.PhatBreakBeforeContainer{
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  background-color: #B1804F;
+  background: linear-gradient(0deg,#753D29 0%, #493734 100%);
+}
+
+
+
+.coffee-gif-text-free{
   position: absolute;
   text-align: center;
   width: 100%;
   left: 0px;
-  padding-top: 5vh;
+  font-family: 'Barrio';
+  font-size: 8em;
+  top: 0.1em;
+
+  color: hsl(37, 60%, 86%);
+  text-shadow:  12px 12px  #250D13, 14px 14px 0 #250D13, 12px 12px 0 #250D13;
+  text-decoration: none;
+}
+
+.coffee-gif-text-pictures{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  font-family: 'Barriecito';
+  font-size: 2.5em;
+
+  top: 4.79em;
+  
+  /* Transparent fill with white stroke */
+  color: transparent;
+  -webkit-text-stroke: 0.013rem #f1e1c7;
+  text-stroke: 0.013remm #F1E1C7; /* Standard property (not widely supported yet) */
+  
+  /* Fallback for browsers that don't support text-stroke */
+  text-shadow: none;
+}
+
+
+.coffee-gif-text-coffee{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  font-family: 'Barrio';
+  font-size: 8em;
+  top: 1.25em;
+  color: #F1E1C7;
+  text-shadow:  4px 4px  #250D13, 4px 4px 0 #250D13, 12px 12px 0 #250D13;
+  
+
+  text-decoration: none;
+
+}
+
+
+.coffee-gif-text-outline-free{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  font-family: 'Barrio';
+  font-size: 8em;
+  top: 0.1em;
+
+  color: hsl(37, 60%, 86%);
+  text-shadow: -2px -2px 0 #250D13, 2px -2px 0 #250D13, -2px 2px 0 #250D13, 2px 2px 0 #250D13;
+  text-decoration: none;
+}
+
+
+
+
+.coffee-gif-text-outline-coffee{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  font-family: 'Barrio';
+  font-size: 8em;
+  top: 1.25em;
+  color: #F1E1C7;
+  text-shadow: -2px -2px 0 #250D13, 2px -2px 0 #250D13, -2px 2px 0 #250D13, 2px 2px 0 #250D13;
+  
+
+  text-decoration: none;
+
 }
 
 .mini-text{
@@ -154,9 +306,107 @@
   z-index: 1; /* Ensure text appears above the GIF */
   color: #CEC0B0; /* Example - adjust as needed */
   text-align: center;
-  
+
 }
 
+.coffee-logo{
+  height: 48px;
+  width: auto;
+}
+
+.latte-img{
+  height: 33vh;
+  padding: 5vh 5vw 5vh 5vw;
+
+}
+
+
+
+.LatteContainer {
+  background: 
+    /* 70s-style thick lines pattern (3-color) */
+    repeating-linear-gradient(
+      90deg,
+      #250D13 0px,  
+      #250D13 20px,  
+      #3B1F14 20px,   
+      #3B1F14 40px,    
+      #874630 40px,   
+      #874630 60px   
+
+    ),
+    /* Gradient background */
+    #B1804F;
+  /* linear-gradient(to bottom, #250D13, #F1E1C7); */
+  
+  margin: 0;
+}
+/* Food Grid Styles */
+.food-grid-container {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.food-img {
+  height: 320px;
+  width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.food-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.food-img:hover {
+  transform: scale(1.05) rotate(-1deg);
+  z-index: 3;
+  filter: sepia(0.2) contrast(1.2) saturate(1.2);
+}
+
+/* Retro Path Background Adjustments */
+.retro-path-container {
+  position: relative;
+  z-index: 1;
+  height: 12 0vh; /* Reduced height */
+}
+
+.retro-path {
+  position: absolute;
+  width: 150%;
+  left: -25%;
+  top: 0;
+  opacity: 0.9; /* Slightly transparent */
+}
+
+.checkerboard {
+  background-color: #B1804F;
+  background-image: 
+  linear-gradient(45deg, #753D29 25%, transparent 25%),
+  linear-gradient(-45deg, #753D29 25%, transparent 25%),
+  linear-gradient(45deg, transparent 75%, #753D29 75%),
+  linear-gradient(-45deg, transparent 75%, #753D29 75%);
+  background-size: 200px 200px;
+  background-position: 0 0, 0 100px, 100px -100px, -100px 0px;
+}
 
 @media screen and (max-width: 960px) {
   .navbar-container {
@@ -211,3 +461,33 @@
 }
 
 
+/* Tablet (3 columns) */
+@media (max-width: 1024px) {
+  .food-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large Mobile (2 columns) */
+@media (max-width: 768px) {
+  .food-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .food-grid-container {
+    padding: 30px 20px;
+  }
+}
+
+/* Small Mobile (1 column) */
+@media (max-width: 480px) {
+  .food-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .food-img {
+    padding-bottom: 80%; /* Rectangular on mobile */
+  }
+}
