@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/free-coffee/static/css/main.d5832f08.css",
-    "main.js": "/free-coffee/static/js/main.95e640e8.js",
+    "main.css": "/free-coffee/static/css/main.aea12fde.css",
+    "main.js": "/free-coffee/static/js/main.0e39befc.js",
     "static/js/453.b21a91d2.chunk.js": "/free-coffee/static/js/453.b21a91d2.chunk.js",
     "static/media/final.gif": "/free-coffee/static/media/final.6b474329a3cd616d8055.gif",
+    "static/media/Me.png": "/free-coffee/static/media/Me.8693a9996c36a7e9c24b.png",
+    "static/media/rip2.png": "/free-coffee/static/media/rip2.dd20fd9b0076e7939b8a.png",
     "static/media/Chrismas Ham.png": "/free-coffee/static/media/Chrismas Ham.8ac46d0f2944085ae597.png",
     "static/media/Eggplant Parm.png": "/free-coffee/static/media/Eggplant Parm.ca5b362b8d40e3ece105.png",
     "static/media/Candied Walnut Butternut Squash.png": "/free-coffee/static/media/Candied Walnut Butternut Squash.a8302d97c9aebf2d98c4.png",
+    "static/media/Machine.png": "/free-coffee/static/media/Machine.52821ca641561c129643.png",
     "static/media/Ham Cut.png": "/free-coffee/static/media/Ham Cut.893ef81a71a8574527ff.png",
     "static/media/Egg Salad.png": "/free-coffee/static/media/Egg Salad.37c944a2d559db6bbb65.png",
     "static/media/Coconut Curry Perogies.png": "/free-coffee/static/media/Coconut Curry Perogies.17c0f55e79ce79d5e6e3.png",
@@ -15,6 +18,7 @@
     "static/media/Baked Endive.png": "/free-coffee/static/media/Baked Endive.782e4a254889fd0ba137.png",
     "static/media/Folded Egg on Toast with Bacon Jam.png": "/free-coffee/static/media/Folded Egg on Toast with Bacon Jam.d309f30818f9f450c7b0.png",
     "static/media/K-Egg Sandwich.png": "/free-coffee/static/media/K-Egg Sandwich.eb149e700224412cfee3.png",
+    "static/media/Sunday Morning Latte.png": "/free-coffee/static/media/Sunday Morning Latte.e05caf037adc3983f3a3.png",
     "static/media/Heart Latte.png": "/free-coffee/static/media/Heart Latte.60eadf89fe368d769255.png",
     "static/media/Banana Bread Latte.png": "/free-coffee/static/media/Banana Bread Latte.75245580c4a89d33b600.png",
     "static/media/Cabbage.png": "/free-coffee/static/media/Cabbage.f96e5ea72db2ce6a7190.png",
@@ -28,12 +32,12 @@
     "static/media/logo-coffee-spill.png": "/free-coffee/static/media/logo-coffee-spill.f7585d9f14f468a542da.png",
     "static/media/logo-coffee.png": "/free-coffee/static/media/logo-coffee.14687e882cdc7389c4e2.png",
     "index.html": "/free-coffee/index.html",
-    "main.d5832f08.css.map": "/free-coffee/static/css/main.d5832f08.css.map",
-    "main.95e640e8.js.map": "/free-coffee/static/js/main.95e640e8.js.map",
+    "main.aea12fde.css.map": "/free-coffee/static/css/main.aea12fde.css.map",
+    "main.0e39befc.js.map": "/free-coffee/static/js/main.0e39befc.js.map",
     "453.b21a91d2.chunk.js.map": "/free-coffee/static/js/453.b21a91d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5832f08.css",
-    "static/js/main.95e640e8.js"
+    "static/css/main.aea12fde.css",
+    "static/js/main.0e39befc.js"
   ]
 }
